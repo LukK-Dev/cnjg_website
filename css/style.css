@@ -38,10 +38,17 @@ img {
     justify-content: space-between;
 }
 
-.navbar img {
-    width: 15%;
+.navbar .logo {
+    width: 10%;
+    margin: 1rem 2rem;
 }
 
 .navbar ul {
     display: flex;
+    margin: 0rem 2rem;
+}
+
+.navbar ul li {
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
 }
