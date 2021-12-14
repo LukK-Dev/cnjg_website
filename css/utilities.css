@@ -12,6 +12,10 @@
     border-radius: 1rem;
 }
 
+.outline {
+    border: 5px solid #333;
+}
+
 .flex-items {
     display: flex;
     align-items: center;
