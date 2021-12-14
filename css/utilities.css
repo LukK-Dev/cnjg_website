@@ -16,6 +16,10 @@
     border: 5px solid #333;
 }
 
+.drop-shadow {
+    box-shadow: 0 8px 38px rgba(0, 0, 0, 0.3); 
+}
+
 .flex-items {
     display: flex;
     align-items: center;
