@@ -1,4 +1,20 @@
-/* Backgrounds */
+/* backgrounds */
 .bg-primary {
     background-color: #2CE576;
+}
+
+/* misc */
+.selected {
+    border-bottom: 3px solid #333;
+}
+
+.rounded-corners {
+    border-radius: 1rem;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
