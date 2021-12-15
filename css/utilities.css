@@ -3,6 +3,15 @@
     background-color: #2CE576;
 }
 
+/* drop shadows */
+.drop-shadow-strong {
+    box-shadow: 0 8px 38px rgba(0, 0, 0, 0.3); 
+}
+
+.drop-shadow-weak {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1); 
+}
+
 /* misc */
 .selected {
     border-bottom: 3px solid #333;
@@ -14,14 +23,6 @@
 
 .outline {
     border: 5px solid #333;
-}
-
-.drop-shadow-strong {
-    box-shadow: 0 8px 38px rgba(0, 0, 0, 0.3); 
-}
-
-.drop-shadow-weak {
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1); 
 }
 
 .flex-items {
