@@ -104,3 +104,18 @@ img {
     margin-right: 4rem;
     font-size: 1.2rem;
 }
+
+/* legal notice */
+.legal-notice-container {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 5rem;
+}
+
+.legal-notice-container h1 {
+    padding: 3rem 0 3rem 0;
+}
+
+.legal-notice-container p {
+    padding: 0rem 4rem;
+}
