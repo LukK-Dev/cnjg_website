@@ -12,6 +12,14 @@
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1); 
 }
 
+/* buttons */
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+}
+
 /* misc */
 .selected {
     border-bottom: 3px solid #333;
@@ -32,3 +40,8 @@
     text-align: center;
 }
 
+.wide-box {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 5rem;
+}
