@@ -113,3 +113,18 @@ img {
 #legal-notice p {
     padding: 0rem 4rem;
 }
+
+/* generator */
+#generator-container h1 {
+    padding: 3rem 0 7rem 0;
+}
+
+#generator-container p {
+    padding: 0 3rem;
+}
+
+#generator-container button {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 12rem;
+}
