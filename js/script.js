@@ -1,11 +1,15 @@
-fetch('https://api.chucknorris.io/jokes/random')
-    .then(res => res.json())
-    .then(data => data)
+const apiUrl = 'https://api.chucknorris.io/jokes/random'
+const generateBtn = document.getElementById('generate-btn')
+const textContainer = document.getElementById('text-container')
 
-const api_url = 'https://api.chucknorris.io/jokes/random'
-const generate_btn = document.getElementById('generate-btn')
-const text_container = document.getElementById('text-container')
-
-generate_btn.addEventListener('click', e => {
-    text_container.innerText = 'hello'
+generateBtn.addEventListener('click', e => {
+    textContainer.innerText = 'hello'
 })
+
+function getJoke() {
+    let joke = fetch(apiUrl)
+        .then(res => res.json())
+        .then(data => {
+            textContainer.innerHTML = '<p>'
+        })
+}

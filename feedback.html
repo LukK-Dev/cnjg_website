@@ -24,9 +24,25 @@
     <main>
         <div class="flex-items">
             <div class="wide-box rounded-corners drop-shadow-strong">
+                <h1>Feedback</h1>
                 <form action="">
-                    <label>First Name</label><br>
-                    <input type="text">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn bg-primary">Submit</button>
                 </form>
             </div>
         </div>
