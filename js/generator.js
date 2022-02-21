@@ -10,8 +10,7 @@ generateBtn.addEventListener('click', e => {
 })
 
 function getRandomNumber() {
-    var x = Math.floor(Math.random() * jokes.length)
-    return x
+    return Math.floor(Math.random() * jokes.length) 
 }
 
 function displayJoke() {
